@@ -1,6 +1,6 @@
 # Anti-Brainrot
 
-An Anti-Brainrot Chrome Extension.
+An Anti-Brainrot Chrome Extension.  
 Get it on Chrome Webstore: https://chromewebstore.google.com/detail/ocbnhbkeniofdlnjhenmhibejdillfaf
 
 ## Our Goal
