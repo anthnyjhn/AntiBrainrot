@@ -22,7 +22,7 @@ A browser extension that helps you focus by blocking short form contents and alg
 
 Coming soon...
 
-## Developer's Note
+## 🛠️ Developer's Note
 
 Hi there! If you'd like to contribute, feel free to fork the repository and submit a pull request. Improvements, bug fixes, and new features are always welcome.
 
