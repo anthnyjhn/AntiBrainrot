@@ -1,6 +1,6 @@
 # 🧠 Anti-Brainrot
 
-A browser extension that helps you focus by blocking short form contents and algorith-suggested contents.
+A browser extension that helps you focus by blocking short form contents and algorithm-suggested contents.
 
 **Get it on Chrome Webstore:** [here](https://chromewebstore.google.com/detail/ocbnhbkeniofdlnjhenmhibejdillfaf)
 
