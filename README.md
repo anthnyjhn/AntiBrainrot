@@ -4,7 +4,7 @@ A browser extension that helps you focus by blocking short form contents and alg
 
 **Get it on Chrome Webstore:** [here](https://chromewebstore.google.com/detail/ocbnhbkeniofdlnjhenmhibejdillfaf)
 
-# ✨ Features
+## ✨ Features
 
 - Allow to disable website access.
 - Remove distraction elements in a website.
