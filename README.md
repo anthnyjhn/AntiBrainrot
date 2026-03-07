@@ -1,11 +1,15 @@
 # Anti-Brainrot
 
-An Anti-Brainrot Chrome Extension.  
-Get it on Chrome Webstore: https://chromewebstore.google.com/detail/ocbnhbkeniofdlnjhenmhibejdillfaf
+A browser extension that helps you focus by blocking short form contents and algorith-suggested contents.
 
-## Our Goal
+**Get it on Chrome Webstore:** [here](https://chromewebstore.google.com/detail/ocbnhbkeniofdlnjhenmhibejdillfaf)
 
-Help you improve your digital media consumption by blocking suggested media content that is engineered to keep you consuming more content.
+## Features
+
+- Allow to disable website access.
+- Remove distraction elements in a website.
+- Remove content recommendations
+- Hide Thumbnails
 
 ## Supported Platforms
 
@@ -14,7 +18,4 @@ Help you improve your digital media consumption by blocking suggested media cont
 - TikTok
 - Facebook
 
-## Functions
-
-- Block access to short-form content.
-- Hide randomly suggested content unless it is the result of a user search.
+## Showcase
