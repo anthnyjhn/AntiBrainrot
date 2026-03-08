@@ -4,25 +4,25 @@ A browser extension that helps you focus by blocking short form contents and alg
 
 **Get it on Chrome Webstore:** [here](https://chromewebstore.google.com/detail/ocbnhbkeniofdlnjhenmhibejdillfaf)
 
-## ✨ Features
+## Features
 
 - Allow to disable website access.
 - Remove distraction elements in a website.
 - Remove content recommendations
 - Hide Thumbnails
 
-## 💻 Supported Platforms
+## Supported Platforms
 
 - YouTube
 - Instagram
 - TikTok
 - Facebook
 
-## 📸 Showcase
+## Showcase
 
 Coming soon...
 
-## 🛠️ Developer's Note
+## Developer's Note
 
 Hi there! If you'd like to contribute, feel free to fork the repository and submit a pull request. Improvements, bug fixes, and new features are always welcome.
 
