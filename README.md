@@ -1,31 +1,51 @@
-# 🧠 Anti-Brainrot
+# React + Vite + CRXJS
 
-A browser extension that helps you focus by blocking short form contents and algorithm-suggested contents.
-
-**Get it on Chrome Webstore:** [here](https://chromewebstore.google.com/detail/ocbnhbkeniofdlnjhenmhibejdillfaf)
+This template helps you quickly start developing Chrome extensions with React and Vite. It includes the CRXJS Vite plugin for seamless Chrome extension development.
 
 ## Features
 
-- Allow to disable website access.
-- Remove distraction elements in a website.
-- Remove content recommendations
-- Hide Thumbnails
+- React with modern syntax
+- Vite build tool
+- CRXJS Vite plugin integration
+- Chrome extension manifest configuration
 
-## Supported Platforms
+## Quick Start
 
-- YouTube
-- Instagram
-- TikTok
-- Facebook
+1. Install dependencies:
 
-## Showcase
+```bash
+npm install
+```
 
-Coming soon...
+2. Start development server:
 
-## Developer's Note
+```bash
+npm run dev
+```
 
-Hi there! If you'd like to contribute, feel free to fork the repository and submit a pull request. Improvements, bug fixes, and new features are always welcome.
+3. Open Chrome and navigate to `chrome://extensions/`, enable "Developer mode", and load the unpacked extension from the `dist` directory.
 
-If you plan to make significant changes, it's a good idea to open an issue first so we can discuss the idea before implementation.
+4. Build for production:
 
-Thanks for taking the time to check out the project and help make it better.
+```bash
+npm run build
+```
+
+## Project Structure
+
+- `src/popup/` - Extension popup UI
+- `src/content/` - Content scripts
+- `manifest.config.js` - Chrome extension manifest configuration
+
+## Documentation
+
+- [React Documentation](https://reactjs.org/)
+- [Vite Documentation](https://vitejs.dev/)
+- [CRXJS Documentation](https://crxjs.dev/vite-plugin)
+
+## Chrome Extension Development Notes
+
+- Use `manifest.config.js` to configure your extension
+- The CRXJS plugin automatically handles manifest generation
+- Content scripts should be placed in `src/content/`
+- Popup UI should be placed in `src/popup/`
