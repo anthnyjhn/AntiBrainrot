@@ -1,27 +1,27 @@
 import React, { useState } from "react";
 
 import Toggle from "./Toggle";
-import Row from "./Row";
 import Section from "./Section";
+import Row from "./Row";
 
 const MainPopup = () => {
   const [settings, setSettings] = useState({
     youtube: {
-      recommended: false,
-      minimalHome: false,
-      shorts: false,
+      recommended: true,
+      minimalHome: true,
+      shorts: true,
     },
     instagram: {
-      reelsPage: false,
-      reelsMessages: false,
+      reelsPage: true,
+      reelsMessages: true,
       followedOnly: false,
     },
     facebook: {
-      reels: false,
+      reels: true,
       marketplaceOnly: false,
     },
     tiktok: {
-      block: false,
+      block: true,
     },
   });
 

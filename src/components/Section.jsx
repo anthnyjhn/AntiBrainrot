@@ -1,6 +1,5 @@
-import React from "react";
+import { useState } from "react";
 
-// 3. Section Component (Moved OUTSIDE MainPopup to fix the state reset bug)
 const Section = ({ title, children }) => {
   const [open, setOpen] = useState(false);
 
