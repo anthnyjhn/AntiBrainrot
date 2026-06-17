@@ -5,12 +5,12 @@ export default defineManifest({
   manifest_version: 3,
   name: pkg.name,
   version: pkg.version,
+  description: "Block YouTube Shorts, Instagram Reels & addictive social media feed.",
   icons: {
     48: 'public/AntiBrainrotIcon.png',
   },
   permissions: [
-    'sidePanel',
-    'contentSettings',
+    'storage'
   ],
   action: {
     default_icon: {
@@ -19,10 +19,18 @@ export default defineManifest({
     default_popup: 'src/popup/index.html',
   },
   content_scripts: [{
-    js: ['src/content/main.jsx'],
-    matches: ['https://*/*'],
+    // Merged into a single array so both scripts run seamlessly
+    js: [
+      'src/content/main.jsx',
+      'src/utils/content.js'
+    ],
+    matches: [
+      "*://www.youtube.com/*",
+      "*://www.instagram.com/*",
+      "*://www.facebook.com/*",
+      "*://www.tiktok.com/*"
+    ],
+    // Changed to document_start for instant block redirects
+    run_at: "document_start"
   }],
-  side_panel: {
-    default_path: 'src/sidepanel/index.html',
-  },
 })
