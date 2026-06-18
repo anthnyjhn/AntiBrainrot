@@ -19,9 +19,8 @@ export default defineManifest({
     default_popup: 'src/popup/index.html',
   },
   content_scripts: [{
-    // Merged into a single array so both scripts run seamlessly
     js: [
-      'src/content/main.jsx',
+      'src/popup/main.jsx',
       'src/utils/content.js'
     ],
     matches: [
@@ -30,7 +29,6 @@ export default defineManifest({
       "*://www.facebook.com/*",
       "*://www.tiktok.com/*"
     ],
-    // Changed to document_start for instant block redirects
     run_at: "document_start"
   }],
 })
