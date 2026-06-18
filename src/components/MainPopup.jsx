@@ -158,19 +158,6 @@ const MainPopup = () => {
             onClick={handleRefreshTab}
             className="w-full mb-4 bg-[#34C759] hover:bg-[#2eb34f] text-white text-[14px] font-semibold py-2 px-3 rounded-lg flex items-center justify-center gap-2 transition-colors duration-200 shadow-md animate-fade-in"
           >
-            <svg
-              className="w-4 h-4 animate-spin-slow"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 4v5h.582m15.356 2A8.001 8.001 0 1121.253 8H18"
-              />
-            </svg>
             Refresh Tab to Apply Changes
           </button>
         )}
@@ -178,7 +165,7 @@ const MainPopup = () => {
         {/* Clean, Minimalist iOS-style Link Footer */}
         <div className="pt-4 border-t border-[#2C2C2E] flex justify-between items-center text-[12px] text-zinc-500 px-1">
           <a
-            href="http://www.anthnyjhn.com"
+            href="https://antibrainrot.anthnyjhn.com"
             target="_blank"
             rel="noreferrer"
             className="hover:text-zinc-300 transition-colors flex items-center gap-1"
