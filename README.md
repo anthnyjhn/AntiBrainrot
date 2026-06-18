@@ -1,51 +1,49 @@
-# React + Vite + CRXJS
+# 🧠 Anti-Brainrot for Social Media - Block Shorts & Feed
 
-This template helps you quickly start developing Chrome extensions with React and Vite. It includes the CRXJS Vite plugin for seamless Chrome extension development.
+_Anti-Brainrot is a browser extension designed to improve your online experience by blocking algorithmic feed that is engineered to keep you addicted. Join the anti brainrot movement._
+
+**Get it on Chrome Webstore:** [chromewebstore.google.com](https://chromewebstore.google.com/detail/ocbnhbkeniofdlnjhenmhibejdillfaf)
 
 ## Features
 
-- React with modern syntax
-- Vite build tool
-- CRXJS Vite plugin integration
-- Chrome extension manifest configuration
+#### **YouTube**
 
-## Quick Start
+- Block YouTube Recommended Contents
+- Minimal Homepage design
+- Block YouTube Shorts
 
-1. Install dependencies:
+#### **Instagram:**
 
-```bash
-npm install
-```
+- Hide Reels Page
+- Block Reels in Messages
+- Hide "For you" page contents (Followed people only)
 
-2. Start development server:
+#### **Facebook:**
 
-```bash
-npm run dev
-```
+- Block Facebook Reels
+- Marketplace mode only
 
-3. Open Chrome and navigate to `chrome://extensions/`, enable "Developer mode", and load the unpacked extension from the `dist` directory.
+#### **TikTok:**
 
-4. Build for production:
+- Block TikTok Site
 
-```bash
-npm run build
-```
+## Supported Platforms
 
-## Project Structure
+- YouTube
+- Instagram
+- TikTok
+- Facebook
 
-- `src/popup/` - Extension popup UI
-- `src/content/` - Content scripts
-- `manifest.config.js` - Chrome extension manifest configuration
+## Showcase
 
-## Documentation
+![main thumbnail](./readme_docs/thumb_1_1920x1080px.png)
+![youtube showcase](./readme_docs/thumb_2_1920x1080px.png)
+![instagram showcase](./readme_docs/thumb_3_1920x1080px.png)
 
-- [React Documentation](https://reactjs.org/)
-- [Vite Documentation](https://vitejs.dev/)
-- [CRXJS Documentation](https://crxjs.dev/vite-plugin)
+## Developer's Note
 
-## Chrome Extension Development Notes
+Hi there! If you'd like to contribute, feel free to fork the repository and submit a pull request. Improvements, bug fixes, and new features are always welcome.
 
-- Use `manifest.config.js` to configure your extension
-- The CRXJS plugin automatically handles manifest generation
-- Content scripts should be placed in `src/content/`
-- Popup UI should be placed in `src/popup/`
+If you plan to make significant changes, it's a good idea to open an issue first so we can discuss the idea before implementation.
+
+Thanks for taking the time to check out the project and help make it better.
